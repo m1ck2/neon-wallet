@@ -1,6 +1,5 @@
 // @flow
-import { doClaimAllGas, doSendAsset, getClaimAmounts } from 'neon-js'
-import { hardwareDoSendAsset, hardwareDoClaimAllGas } from '../ledger/ledgerNanoS.js'
+import { doClaimAllGas, doSendAsset, getClaimAmounts, hardwareDoSendAsset, hardwareDoClaimAllGas } from 'neon-js'
 import { sendEvent, clearTransactionEvent } from '../modules/transactions'
 import { log } from '../util/Logs'
 import { ASSETS } from '../core/constants'

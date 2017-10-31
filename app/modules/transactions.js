@@ -1,10 +1,9 @@
 // @flow
 import { ASSETS_LABELS, ASSETS } from '../core/constants'
 import { validateTransactionBeforeSending } from '../core/wallet'
-import { getTransactionHistory, doSendAsset } from 'neon-js'
+import { getTransactionHistory, doSendAsset, hardwareDoSendAsset } from 'neon-js'
 import { setTransactionHistory } from '../modules/wallet'
 import { log } from '../util/Logs'
-import { hardwareDoSendAsset } from '../ledger/ledgerNanoS.js'
 
 // Constants
 export const SEND_TRANSACTION = 'SEND_TRANSACTION'
