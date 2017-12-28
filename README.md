@@ -25,6 +25,8 @@
 
 ## Overview
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/m1ck2/neon-wallet.svg)](https://greenkeeper.io/)
+
 ### What does it currently do
 
 - View Gas and Neo balances
